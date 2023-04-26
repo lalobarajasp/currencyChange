@@ -1,6 +1,7 @@
 # Currency Exchange💰
 - This application is responsible for generating the change of a currency.
 - The necessary parameters to work are entered in the param of your HTTP request, example:
+
 `http://localhost:8080/api/change/?baseCurrency=USD&targetCurrency=MXN&amount=1`
 - The currency type for baseCurrency is found in the package "reference" file "BaseCurrency".
 - The currency type for targetCurrency is found in the package "reference" file "TargetCurrency".
